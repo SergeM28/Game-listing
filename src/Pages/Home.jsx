@@ -3,7 +3,7 @@ import GenreList from '../Components/GenreList'
 
 const Home = () => {
     return (
-        <div className='grid grid-cols-4'>
+        <div className='grid grid-cols-4 px-8'>
             <div className='hidden md:block'>
                 <GenreList/>
             </div>
