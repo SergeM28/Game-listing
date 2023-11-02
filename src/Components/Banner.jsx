@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 
 const Banner = ({gameBanner}) => {
+    
     useEffect(() => {
-        console.log("gameBanner", gameBanner);
     },[]);
 
     return (

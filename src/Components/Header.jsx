@@ -8,8 +8,7 @@ const Header = () => {
     const { theme, setTheme } = useContext(ThemeContext);
 
     useEffect(() => {
-        console.log("Theme", theme)
-    }, [])
+    }, []);
 
     return (
         <div className="flex items-center p-3">
