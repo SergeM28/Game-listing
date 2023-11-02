@@ -18,7 +18,7 @@ const GenreList = ({ genereId, selectedGenresName }) => {
         <div className='px-6'>
             <h2 className='text-[30px] font-bold dark:text-white'>Genre</h2>
             {genreList.map((item, index) => (
-                <div
+                <div key={item.id}
                     onClick={() => {
                         setActiveIndex(index); genereId(item.id);
                         selectedGenresName(item.name)
